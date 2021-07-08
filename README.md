@@ -15,7 +15,7 @@
   - If "rl_mode" is "train", the program will learn a policy for every car and the learned policy will be stored in the current directory with the name of "car#_rl.pkl" (# represents the car number).
   - If "rl_mode" is "test", the program will load pre-learned policies for cars and run the simulation.
 
-## Source
+## Reference
 - Simulation environment: [CARLO GitHub](https://github.com/Stanford-ILIAD/CARLO)
 - [PID steering control](http://street.umn.edu/VehControl/javahelp/HTML/Steering_Control.htm)
 - [Wiki: Q-learning](https://en.wikipedia.org/wiki/Q-learning)
