@@ -2,7 +2,7 @@
 
 ## Description
 - In this project, two steering control methods, PID control and reinforcement learning (Q-learning) control, are implemented.
-- The simulation environment is based on CARLO. Two cars are placed in the environment. The CARLO GitHub is here: https://github.com/Stanford-ILIAD/CARLO
+- The simulation environment is based on CARLO (circular road). Two cars are placed in the environment. The CARLO GitHub is here: https://github.com/Stanford-ILIAD/CARLO
 - Two main program files are included in the project.
   - "main_pid.py" uses PID steering control.
   - "main_rl.py" uses reinforcement learning for steering control.
