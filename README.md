@@ -2,7 +2,7 @@
 
 ## Description
 - In this project, two steering control methods, PID control and reinforcement learning (Q-learning) control, are implemented.
-- The simulation environment is based on CARLO (circular road). Two cars are placed in the environment. The CARLO GitHub is here: https://github.com/Stanford-ILIAD/CARLO
+- The simulation environment is based on CARLO (circular road). Two cars are placed in the environment.
 - Two main program files are included in the project.
   - "main_pid.py" uses PID steering control.
   - "main_rl.py" uses reinforcement learning for steering control.
@@ -14,3 +14,8 @@
 - Reinforcement learning steering control requires an additional parameter "rl_mode" whose value is "train" or "test". The parameter needs to be specified in the program.
   - If "rl_mode" is "train", the program will learn a policy for every car and the learned policy will be stored in the current directory with the name of "car#_rl.pkl" (# represents the car number).
   - If "rl_mode" is "test", the program will load pre-learned policies for cars and run the simulation.
+
+## Source
+- Simulation environment: [CARLO GitHub](https://github.com/Stanford-ILIAD/CARLO)
+- [PID steering control](http://street.umn.edu/VehControl/javahelp/HTML/Steering_Control.htm)
+- [Wiki: Q-learning](https://en.wikipedia.org/wiki/Q-learning)
